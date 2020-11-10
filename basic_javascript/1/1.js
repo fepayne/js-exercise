@@ -4,6 +4,8 @@ function SeriesSum(n) {
         sum += 1/i;
     }
     console.log(String(sum.toFixed(2)));
+    // возвращяй результат выполнения функции
+    // return String(sum.toFixed(2))
 }
 
 SeriesSum(5);

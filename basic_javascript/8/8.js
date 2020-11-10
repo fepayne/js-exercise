@@ -1,3 +1,4 @@
+// добавить проверку на число или привести аргумент к числу
 function rentalCarCost(days) {
     if (days < 3) {
         return days * 40;
